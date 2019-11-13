@@ -1,6 +1,8 @@
 import app from './app';
 
-app.listen(3333, () => {
-  // eslint-disable-next-line no-console
-  console.log('server is running');
+const PORT = 3333;
+
+app.listen(PORT, () => {
+	// eslint-disable-next-line no-console
+	console.log('server is running');
 });
