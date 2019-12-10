@@ -1,0 +1,39 @@
+version: "3"
+
+services: 
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_DB: gobarber
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "docker"
+    ports:
+      - 15432:5432
+    volumes:
+      - ./data/db:/var/lib/postgresql/data 
+    networks:
+      - go-barber
+
+  app: 
+    build: 
+      dockerfile: ./docker/node.dockerfile
+      context: .
+    container_name: api_go_barber
+    command: yarn install
+    command: yarn run dev
+    ports: 
+      - 3000:3000
+    networks: 
+      - go-barber
+    volumes:
+      - .:/usr/app
+    links:
+      - postgres
+    depends_on: 
+      - postgres
+
+      
+networks: 
+  go-barber:
+    driver: bridge
