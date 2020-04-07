@@ -6,10 +6,6 @@
 GoBarber
 </h3>
 
-<p align = "center">
-<a href="#-Installation-and-execution"> Installation and execution </a> & nbsp; & nbsp; & nbsp; & nbsp; | & nbsp; & nbsp; & nbsp;
-<a href="#-como-contribuir"> How to contribute </a> & nbsp; & nbsp; & nbsp;
-</p>
 
 ## 📥 Installation and execution
 
