@@ -1,6 +1,7 @@
-node_modules
-yarn-error.log
-yarn.lock
-.vscode
-data
-.env
+backend/node_modules/
+backend/tmp/uploads/*.jpg
+backend/.env
+
+frontend/node_modules/
+
+mobile/node_modules/

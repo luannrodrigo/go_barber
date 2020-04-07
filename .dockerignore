@@ -1,7 +1,0 @@
-.gitignore
-data
-yarn.lock
-node_modules
-npm-debug.log
-Dockerfile
-.dockerignore
