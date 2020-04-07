@@ -1,49 +1,41 @@
-<h1 align="center">
-	<img alt="GoStack" src=".github/GoStackLogo.png" width="200px" />
+<h1 align = "center">
+<img alt = "GoStack" src = ". github / GoStackLogo.png" width = "200px" />
 </h1>
 
-<h3 align="center">
-  GoBarber
+<h3 align = "center">
+GoBarber
 </h3>
 
-<p align="center">
-  <a href="#-Instalação-e-execução">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;
+<p align = "center">
+<a href="#-Installation-and-execution"> Installation and execution </a> & nbsp; & nbsp; & nbsp; & nbsp; | & nbsp; & nbsp; & nbsp;
+<a href="#-como-contribuir"> How to contribute </a> & nbsp; & nbsp; & nbsp;
 </p>
 
-## 📥 Instalação e execução
+## 📥 Installation and execution
 
-Faça um clone desse repositório.
+Clone this repository.
 
-### Backend
+### Internal process
 
-1. A partir da raiz do projeto, entre na pasta do backend rodando `cd backend`;
-2. Rode `yarn` para instalar as dependências;
-3. Crie um banco de dados no `postgres` com o nome de `gobarber`;
-4. Rode `cp .env.example .env` e preencha o arquivo `.env` com **SUAS** variáveis ambiente;
-5. Rode `yarn sequelize db:migrate` para executar as migrations;
-6. Rode `yarn dev` para iniciar o servidor.
+1. From the root of the project, among the masses of the back-end running `cd backend`;
+2. Run `yarn` to install as dependencies;
+3. Create a database in `postgres` with the name of` gobarber`;
+4. Run `cp .env.example .env` and fill the` .env` file with ** YOUR ** environment variables;
+5. Run `yarn sequelize db: migrate` to perform as migrations;
+6. Run `yarn dev` to start the server.
 
-### Frontend Web
+### Front-end web
 
-_ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
+_ps: Before executing, remember to start or backend this project_
 
-1. A partir da raiz do projeto, entre na pasta do frontend web rodando `cd frontend`;
-2. Rode `yarn` para instalar as dependências;
-3. Rode `yarn start` para iniciar o client.
+1. From the root of the project, among the masses of the web frontend running `cd frontend`;
+2. Run `yarn` to install as dependencies;
+3. Run `yarn start` to start the client.
 
 ### Frontend Mobile
 
-_ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
+_ps: Before executing, remember to start or backend this project_
 
-1. A partir da raiz do projeto, entre na pasta do frontend mobile rodando `cd mobile`;
-2. Rode `yarn` para instalar as dependências;
-3. Rode `yarn react-native run-ios` ou yarn `react-native run-android` dependendo do SO.
-
-<!-- ## 🤔 Como contribuir
-
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
- -->
+1. From the root of the project, among the masses of the mobile frontend running `cd mobile`;
+2. Run `yarn` to install as dependencies;
+3. Run `yarn react-native run-ios` or yarn` react-native run-android` depending on the OS.
